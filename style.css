@@ -39,10 +39,12 @@
   margin: 0;
   padding: 0px;
 }
-.list-item .section__title {
+.list-item,
+.section__title {
   list-style: none;
 }
-.input .button{
+.input,
+.button{
   outline: none;
 }
 .button {
@@ -93,7 +95,8 @@
 }
 
 /* Task list */
-.list-item .todo__item {
+.list-item,
+.todo__item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
