@@ -67,7 +67,7 @@
   margin: 0;
   text-transform: uppercase;
 }
-.input[type="text"] {
+.input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -79,7 +79,7 @@
   font-family: "Lato", sans-serif;
   color: #888;
 }
-.input[type="text"]:focus {
+.input:focus {
   color: #333;
 }
 
